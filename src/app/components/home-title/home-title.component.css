@@ -1,0 +1,9 @@
+.container__home-title {
+  margin: 10px 0;
+}
+
+.home-title__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 8rem;
+}
