@@ -1,0 +1,19 @@
+.container__big-card {
+  width: 400px;
+}
+
+.big-card__photo {
+  margin-bottom: 15px;
+}
+
+.big-card__photo > img {
+  width: 100%;
+}
+
+.big-card__title {
+  margin-bottom: 10px;
+}
+
+.big-card__title__link {
+  color: #FFF;
+}
