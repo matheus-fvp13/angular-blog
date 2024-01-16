@@ -1,19 +1,36 @@
-.home__top {
+.home-top {
   background-color: #121212;
   color: #FFF;
   padding: 20px 0;
 }
 
-.home__top__content {
+.home-top__content {
   margin-top: 30px;
 
   display: flex;
   justify-content: space-between;
 }
 
-.others {
+.home-top__content__others {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
+
+.home-bottom {
+  margin: 10px 0;
+  padding: 20px 0;
+}
+
+.home-bottom__title {
+  color: #979797b6;
+  margin-bottom: 15px;
+}
+
+.home-bottom__content {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
 
