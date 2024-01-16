@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { HomeTitleComponent } from '../../components/home-title/home-title.component';
 import { BigCardComponent } from '../../components/big-card/big-card.component';
 import { SmallCardComponent } from '../../components/small-card/small-card.component';
+import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +10,8 @@ import { SmallCardComponent } from '../../components/small-card/small-card.compo
   imports: [
     HomeTitleComponent,
     BigCardComponent,
-    SmallCardComponent
+    SmallCardComponent,
+    MenuBarComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

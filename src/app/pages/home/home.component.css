@@ -1,7 +1,13 @@
+header {
+  margin-top: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
 .home-top {
-  background-color: #121212;
   color: #FFF;
-  padding: 20px 0;
+  padding: 10px 0 20px 0;
 }
 
 .home-top__content {
@@ -20,6 +26,8 @@
 .home-bottom {
   margin: 10px 0;
   padding: 20px 0;
+
+  background-color: #FFF;
 }
 
 .home-bottom__title {
@@ -29,7 +37,7 @@
 
 .home-bottom__content {
   display: flex;
-  gap: 50px;
+  gap: 24px;
   flex-wrap: wrap;
 }
 

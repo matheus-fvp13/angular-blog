@@ -7,8 +7,13 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  background-color: #121212;
+}
+
 a {
   text-decoration: none;
+  color: #FFF;
 }
 
 .container {

@@ -1,0 +1,11 @@
+.container__menu-bar {
+  color: #FFF;
+}
+
+.container__menu-bar > ul {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
