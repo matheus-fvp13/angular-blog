@@ -1,9 +1,9 @@
 <div class="container__small-card">
   <figure class="small-card__photo">
-    <img src="https://images.pexels.com/photos/19741881/pexels-photo-19741881/free-photo-of-fotografia-animal-fotografia-de-animais-bokeh-fora-de-foco.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="pandas brincando">
-    <figcaption style="color: #808080;">15/01/2024</figcaption>
+    <img [src]="imageUrl" alt="pandas brincando">
+    <figcaption style="color: #808080;">{{ imageDate }}</figcaption>
   </figure>
   <h2 class="small-card__title">
-    <a href="" class="small-card__title__link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, itaque repellendus!</a>
+    <a href="" class="small-card__title__link">{{ title }}</a>
   </h2>
 </div>

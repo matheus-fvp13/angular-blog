@@ -1,10 +1,10 @@
 <div [ngStyle]="{'width': width}" class="container__big-card">
   <figure class="big-card__photo">
-    <img src="https://images.pexels.com/photos/1661535/pexels-photo-1661535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="pandas brincando">
-    <figcaption style="color: #808080;">15/01/2024</figcaption>
+    <img [src]="imageUrl" alt="pandas brincando">
+    <figcaption style="color: #808080;">{{ imageDate }}</figcaption>
   </figure>
   <h2 class="big-card__title">
-    <a href="" class="big-card__title__link" [ngStyle]="{'color': linkColor}">Pandas estão ameaçados de extinção</a>
+    <a href="" class="big-card__title__link" [ngStyle]="{'color': linkColor}">{{ title }}</a>
   </h2>
-  <p class="big-card__description" style="color: #808080;">Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere harum error dicta magni laborum dolor? Ex earum adipisci quae accusantium non culpa, excepturi, nostrum veritatis perferendis aliquam praesentium labore.</p>
+  <p class="big-card__description" style="color: #808080;">{{ description }}</p>
 </div>

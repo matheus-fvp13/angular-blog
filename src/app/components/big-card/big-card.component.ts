@@ -11,4 +11,8 @@ import { Component, Input } from '@angular/core';
 export class BigCardComponent {
   @Input() width: string = '400px';
   @Input() linkColor: string = '#FFF';
+  @Input() imageUrl: string = ''
+  @Input() imageDate: string = ''
+  @Input() title: string = ''
+  @Input() description: string = ''
 }
