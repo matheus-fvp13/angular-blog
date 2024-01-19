@@ -1,12 +1,9 @@
 .container__content{
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 20px;
   margin-top: 20px;
-
   color: #FFF;
 }
 
@@ -16,10 +13,16 @@
 }
 
 .content__cover > img {
-  width: 70%;
+  width: 100%;
   min-width: 50%;
   border-radius: 5px;
   border: 2px solid gray;
+}
+
+.content_details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .content__description > p {
