@@ -45,49 +45,48 @@ export const dataFake = [
   },
   {
     "id": "7",
-    "imageUrl": "https://images.pexels.com/photos/2062316/pexels-photo-2062316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "title": "As serpentes pítons estão causando problemas na Flórida. Será que os caçadores de recompensas são a solução?",
-    "description": "Milhares de pítons birmanesas invasoras têm devastado a vida selvagem nativa do estado da Flórida, nos Estados Unidos. Alguns questionam se caçá-las é a resposta certa.",
+    "imageUrl": "https://images.pexels.com/photos/1046287/pexels-photo-1046287.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Como as borboletas monarcas escapam de seus predadores? Descubra 3 características marcantes sobre elas",
+    "description": "Como elas escapam de seus predadores? Quantos ovos as fêmeas põem e como elas podem ser diferenciadas dos machos? Saiba mais sobre essa borboleta que se destaca por sua beleza.",
     "publicationDate": "22/09/2021"
 
   },
   {
     "id": "8",
-    "imageUrl": "https://images.pexels.com/photos/2062316/pexels-photo-2062316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "title": "As serpentes pítons estão causando problemas na Flórida. Será que os caçadores de recompensas são a solução?",
-    "description": "Milhares de pítons birmanesas invasoras têm devastado a vida selvagem nativa do estado da Flórida, nos Estados Unidos. Alguns questionam se caçá-las é a resposta certa.",
-    "publicationDate": "22/09/2021"
+    "imageUrl": "https://images.pexels.com/photos/15080709/pexels-photo-15080709/free-photo-of-fotografia-animal-fotografia-de-animais-macaquinho-grama.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Parecidos com os humanos? Descubra 3 curiosidades surpreendentes sobre os gorilas",
+    "description": "Os gorilas (Gorilla gorilla e Gorilla beringei) são animais que vivem principalmente na África Central e têm uma dieta herbívora baseada sobretudo em plantas, como explica a Great Apes Survival Partnership (GRASP), uma organização ambiental promovida pelo Programa das Nações Unidas para o Ambiente (PNUA) em 2001.",
+    "publicationDate": "04/08/2022"
 
   },
   {
     "id": "9",
-    "imageUrl": "https://images.pexels.com/photos/2062316/pexels-photo-2062316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "title": "As serpentes pítons estão causando problemas na Flórida. Será que os caçadores de recompensas são a solução?",
-    "description": "Milhares de pítons birmanesas invasoras têm devastado a vida selvagem nativa do estado da Flórida, nos Estados Unidos. Alguns questionam se caçá-las é a resposta certa.",
+    "imageUrl": "https://images.pexels.com/photos/160583/capybara-group-eat-meadow-160583.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "As 6 curiosidades sobre a capivara, o maior roedor do mundo",
+    "description": "Graças à persistência da espécie, este grande animal se adaptou para viver entre os humanos. Saiba mais sobre o que a capivara come, onde vive e seu estado de conservação.",
     "publicationDate": "22/09/2021"
 
   },
   {
     "id": "10",
-    "imageUrl": "https://images.pexels.com/photos/2062316/pexels-photo-2062316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "title": "As serpentes pítons estão causando problemas na Flórida. Será que os caçadores de recompensas são a solução?",
-    "description": "Milhares de pítons birmanesas invasoras têm devastado a vida selvagem nativa do estado da Flórida, nos Estados Unidos. Alguns questionam se caçá-las é a resposta certa.",
+    "imageUrl": "https://images.pexels.com/photos/1598377/pexels-photo-1598377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Leão-africano",
+    "description": "Apesar de serem admirados como símbolos de força e coragem no mundo inteiro, as populações de leões africanos diminuíram pela metade nos últimos 25 anos.",
     "publicationDate": "22/09/2021"
 
   },
   {
     "id": "11",
-    "imageUrl": "https://images.pexels.com/photos/2062316/pexels-photo-2062316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "title": "As serpentes pítons estão causando problemas na Flórida. Será que os caçadores de recompensas são a solução?",
-    "description": "Milhares de pítons birmanesas invasoras têm devastado a vida selvagem nativa do estado da Flórida, nos Estados Unidos. Alguns questionam se caçá-las é a resposta certa.",
-    "publicationDate": "22/09/2021"
-
+    "imageUrl": "https://images.pexels.com/photos/802112/pexels-photo-802112.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Girafa Elegante",
+    "description": "As girafas são conhecidas por seu pescoço longo e elegante, que as ajuda a alcançar folhas nas partes superiores das árvores. Elas são os animais terrestres mais altos e têm uma visão excepcional.",
+    "publicationDate": "15/02/2022"
   },
   {
     "id": "12",
-    "imageUrl": "https://images.pexels.com/photos/2062316/pexels-photo-2062316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "title": "As serpentes pítons estão causando problemas na Flórida. Será que os caçadores de recompensas são a solução?",
-    "description": "Milhares de pítons birmanesas invasoras têm devastado a vida selvagem nativa do estado da Flórida, nos Estados Unidos. Alguns questionam se caçá-las é a resposta certa.",
+    "imageUrl": "https://images.pexels.com/photos/3652958/pexels-photo-3652958.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "title": "Conheça 4 dos animais mais lentos do mundo: tem até um tubarão na lista",
+    "description": "Alguns animais se movimentam tão devagar que surpreendem por apresentar velocidades realmente baixas ao se deslocarem.",
     "publicationDate": "22/09/2021"
 
   },
