@@ -2,21 +2,27 @@
   width: 550px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
 }
 
 .small-card__photo {
-  display: flex;
-  gap: 10px;
-  width: 70%;
+  width: 40%;
 }
 
-.small-card__photo img {
+.small-card__photo > img {
   width: 100%;
 }
 
-.small-card__photo figcaption {
-  margin-top: 5px;
+.small-card__info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dateNews {
+  justify-self: flex-start;
 }
 
 .small-card__title {

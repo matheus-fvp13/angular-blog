@@ -4,7 +4,7 @@
     <figcaption style="color: #808080;">{{ imageDate }}</figcaption>
   </figure>
   <h2 class="big-card__title">
-    <a href="" class="big-card__title__link" [ngStyle]="{'color': linkColor}">{{ title }}</a>
+    <a [routerLink]="['content', id]" class="big-card__title__link" [ngStyle]="{'color': linkColor}">{{ title }}</a>
   </h2>
   <p class="big-card__description" style="color: #808080;">{{ description }}</p>
 </div>

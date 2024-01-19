@@ -4,17 +4,22 @@
       <app-home-title></app-home-title>
       <section class="home-top__content">
         <app-big-card
-          imageUrl="https://images.pexels.com/photos/1661535/pexels-photo-1661535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          imageDate="16/01/2024"
-          title="Pandas estão ameaçados de extinção"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere harum error dicta magni laborum dolor? Ex earum adipisci quae accusantium non culpa, excepturi, nostrum veritatis perferendis aliquam praesentium labore."
+          id={{mainNews.id}}
+          imageUrl={{mainNews.imageUrl}}
+          imageDate={{mainNews.publicationDate}}
+          title={{mainNews.title}}
+          description={{mainNews.description}}
         ></app-big-card>
         <div class="home-top__content__others">
-          <app-small-card></app-small-card>
-          <hr>
-          <app-small-card></app-small-card>
-          <hr>
-          <app-small-card></app-small-card>
+          @for (item of recentNews; track $index) {
+            <app-small-card
+              id={{item.id}}
+              imageUrl={{item.imageUrl}}
+              imageDate={{item.publicationDate}}
+              title={{item.title}}
+            ></app-small-card>
+            <hr>
+          }
         </div>
       </section>
     </div>
@@ -23,38 +28,17 @@
     <div class="container">
       <h2 class="home-bottom__title">Inferior</h2>
       <section class="home-bottom__content">
-        <app-big-card width="230px" linkColor="#000" imageUrl="https://images.pexels.com/photos/2062316/pexels-photo-2062316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          imageDate="16/01/2024"
-          title="As serpentes pítons estão causando problemas na Flórida. Será que os caçadores de recompensas são a solução?"
-          description="Milhares de pítons birmanesas invasoras têm devastado a vida selvagem nativa do estado da Flórida, nos Estados Unidos. Alguns questionam se caçá-las é a resposta certa."></app-big-card>
-        <app-big-card width="230px" linkColor="#000" imageUrl="https://images.pexels.com/photos/633437/pexels-photo-633437.jpeg?auto=compress&cs=tinysrgb&w=600"
-          imageDate="16/01/2024"
-          title="Como as borboletas monarcas escapam de seus predadores? Descubra 3 características marcantes sobre elas"
-          description="Como elas escapam de seus predadores? Quantos ovos as fêmeas põem e como elas podem ser diferenciadas dos machos? Saiba mais sobre essa borboleta que se destaca por sua beleza."></app-big-card>
-        <app-big-card width="230px" linkColor="#000" imageUrl="https://images.pexels.com/photos/1661535/pexels-photo-1661535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          imageDate="16/01/2024"
-          title="Pandas estão ameaçados de extinção"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere harum error dicta magni laborum dolor? Ex earum adipisci quae accusantium non culpa, excepturi, nostrum veritatis perferendis aliquam praesentium labore."></app-big-card>
-        <app-big-card width="230px" linkColor="#000" imageUrl="https://images.pexels.com/photos/1661535/pexels-photo-1661535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          imageDate="16/01/2024"
-          title="Pandas estão ameaçados de extinção"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere harum error dicta magni laborum dolor? Ex earum adipisci quae accusantium non culpa, excepturi, nostrum veritatis perferendis aliquam praesentium labore."></app-big-card>
-        <app-big-card width="230px" linkColor="#000" imageUrl="https://images.pexels.com/photos/1661535/pexels-photo-1661535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          imageDate="16/01/2024"
-          title="Pandas estão ameaçados de extinção"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere harum error dicta magni laborum dolor? Ex earum adipisci quae accusantium non culpa, excepturi, nostrum veritatis perferendis aliquam praesentium labore."></app-big-card>
-        <app-big-card width="230px" linkColor="#000" imageUrl="https://images.pexels.com/photos/1661535/pexels-photo-1661535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          imageDate="16/01/2024"
-          title="Pandas estão ameaçados de extinção"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere harum error dicta magni laborum dolor? Ex earum adipisci quae accusantium non culpa, excepturi, nostrum veritatis perferendis aliquam praesentium labore."></app-big-card>
-        <app-big-card width="230px" linkColor="#000" imageUrl="https://images.pexels.com/photos/1661535/pexels-photo-1661535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          imageDate="16/01/2024"
-          title="Pandas estão ameaçados de extinção"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere harum error dicta magni laborum dolor? Ex earum adipisci quae accusantium non culpa, excepturi, nostrum veritatis perferendis aliquam praesentium labore."></app-big-card>
-        <app-big-card width="230px" linkColor="#000" imageUrl="https://images.pexels.com/photos/1661535/pexels-photo-1661535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          imageDate="16/01/2024"
-          title="Pandas estão ameaçados de extinção"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere harum error dicta magni laborum dolor? Ex earum adipisci quae accusantium non culpa, excepturi, nostrum veritatis perferendis aliquam praesentium labore."></app-big-card>
+        @for (item of otherNews; track $index) {
+          <app-big-card
+            id={{item.id}}
+            width="230px"
+            linkColor="#000"
+            imageUrl={{item.imageUrl}}
+            imageDate={{item.publicationDate}}
+            title={{item.title}}
+            description={{item.description}}>
+          </app-big-card>
+        }
       </section>
     </div>
   </section>

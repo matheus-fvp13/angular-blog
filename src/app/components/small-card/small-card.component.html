@@ -1,9 +1,11 @@
 <div class="container__small-card">
   <figure class="small-card__photo">
-    <img [src]="imageUrl" alt="pandas brincando">
-    <figcaption style="color: #808080;">{{ imageDate }}</figcaption>
+    <img [src]="imageUrl" alt="">
   </figure>
-  <h2 class="small-card__title">
-    <a href="" class="small-card__title__link">{{ title }}</a>
-  </h2>
+  <div class="small-card__info">
+    <span class="dateNews" style="color: #808080;">{{ imageDate }}</span>
+    <h2 class="small-card__title">
+      <a [routerLink]="['content', id]" class="small-card__title__link">{{ title }}</a>
+    </h2>
+  </div>
 </div>
